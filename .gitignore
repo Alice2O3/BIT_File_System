@@ -397,7 +397,37 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-# Cmake Files
+# Compiled Object files
+**/.DS_Store
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
 **/cmake-build-debug
 **/CMakeCache.txt
 **/cmake_install.cmake
@@ -411,7 +441,6 @@ FodyWeavers.xsd
 out/
 
 # Running File
-run/*.exe
-run/*.manifest
+run/*
 run/FileSystem/*.bin
 run/Samples/*.bin
