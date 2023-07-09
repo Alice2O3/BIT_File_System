@@ -442,5 +442,8 @@ out/
 
 # Running File
 run/*
-run/FileSystem/*.bin
-run/Samples/*.bin
+!run/CMakeLists.txt
+run/FileSystem/*
+!run/FileSystem/CMakeLists.txt
+run/Samples/*
+!run/Samples/CMakeLists.txt
