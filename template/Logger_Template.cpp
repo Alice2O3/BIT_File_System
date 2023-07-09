@@ -3,7 +3,7 @@
 
 template<typename ...Ts>
 void Logger::log_private(const Ts& ...args) {
-	(std::cout << ... << args) << endl;
+	(std::cout << ... << args) << std::endl;
 }
 
 template<typename ...Ts>
