@@ -1,7 +1,6 @@
 ﻿#include "CMD.h"
 #include "Logger_Template.cpp"
 #include "BITVFS.h"
-#include <stdlib.h>
 
 using namespace std;
 
@@ -16,6 +15,9 @@ int main()
 	show_intro();
 	CMD cmd(make_unique<BITVFS>());
 	cmd.run();
+#ifdef _WIN32
+	#include <stdlib.h>
 	system("pause");
+#endif
 	return 0;
 }
