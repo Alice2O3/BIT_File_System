@@ -7,6 +7,11 @@ using namespace std;
 void show_intro() {
 	Logger::log();
 	Logger::log("Welcome to BIT Virtual File System! Run the \"help\" command for more instructions!");
+#ifdef _WIN32
+	Logger::log("Current System: Windows");
+#else
+	Logger::log("Current System: Linux");
+#endif
 	Logger::log();
 }
 
