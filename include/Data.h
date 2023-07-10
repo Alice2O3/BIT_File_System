@@ -1,5 +1,4 @@
-﻿#ifndef DATA_H
-#define DATA_H
+﻿#pragma once
 
 #include "data_macros.h"
 
@@ -65,5 +64,3 @@ struct FileSystem_Data {
 	//BLOCK_SIZE * FILE_NUM B
 	FB fb_block[FILE_NUM];
 };
-
-#endif

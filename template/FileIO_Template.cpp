@@ -1,3 +1,5 @@
+#pragma once
+
 #include "FileIO.h"
 #include <fstream>
 #include <filesystem>

@@ -1,5 +1,4 @@
-#ifndef VFS_MACROS_H
-#define VFS_MACROS_H
+#pragma once
 
 using vfs_err_code = unsigned int;
 
@@ -18,5 +17,3 @@ constexpr vfs_err_code VFS_FILE_NOT_READING = 0xB;
 constexpr vfs_err_code VFS_FILE_EXISTS = 0xC;
 constexpr vfs_err_code VFS_FILE_DOES_NOT_EXIST = 0xD;
 constexpr vfs_err_code VFS_FILE_SIZE_EXCEEDED = 0xE;
-
-#endif

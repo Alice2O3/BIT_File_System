@@ -1,5 +1,4 @@
-#ifndef FILEIO_H
-#define FILEIO_H
+#pragma once
 
 #include "std_headers.h"
 #include "data_macros.h"
@@ -14,5 +13,3 @@ public:
 	template<typename T> static std::unique_ptr<T> read_file(const str_type& file_path);
 	template<typename T> static void write_file(const std::unique_ptr<T>& data, const str_type& file_path);
 };
-
-#endif

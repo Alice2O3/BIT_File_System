@@ -1,7 +1,7 @@
-#ifndef IVIRTUALFILESYSTEM_H
-#define IVIRTUALFILESYSTEM_H
+#pragma once
 
 #include "std_headers.h"
+#include "data_macros.h"
 #include "vfs_macros.h"
 
 class IVirtualFileSystem {
@@ -39,5 +39,3 @@ public:
 	virtual void cmd_init() = 0;
 	virtual str_type get_cmd_dir() = 0;
 };
-
-#endif

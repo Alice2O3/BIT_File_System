@@ -1,5 +1,4 @@
-#ifndef CMD_MACROS_H
-#define CMD_MACROS_H
+#pragma once
 
 #include "data_macros.h"
 
@@ -33,5 +32,3 @@ constexpr auto PARENT_DIRECTORY = "..";
 
 // CHARACTERS
 constexpr auto CHAR_SPACE = ' ';
-
-#endif

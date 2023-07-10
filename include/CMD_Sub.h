@@ -1,5 +1,4 @@
-#ifndef CMD_SUB_H
-#define CMD_SUB_H
+#pragma once
 
 #include "std_headers.h"
 #include "CMD.h"
@@ -141,5 +140,3 @@ public:
 	CMD_Sub_Delete();
 	cmd_code execute(const std::unique_ptr<IVirtualFileSystem>& vfs, const cmd_args_type& args, const size_t& args_num) override;
 };
-
-#endif

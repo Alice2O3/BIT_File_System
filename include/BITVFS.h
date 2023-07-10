@@ -1,5 +1,4 @@
-#ifndef VIRTUALFILESYSTEM_H
-#define VIRTUALFILESYSTEM_H
+#pragma once
 
 #include "std_headers.h"
 #include "Data.h"
@@ -49,5 +48,3 @@ public:
 	void cmd_init() override;
 	str_type get_cmd_dir() override;
 };
-
-#endif

@@ -1,5 +1,4 @@
-#ifndef STD_HEADERS_H
-#define STD_HEADERS_H
+#pragma once
 
 #include <memory>
 #include <string>
@@ -7,5 +6,3 @@
 #include <list>
 #include <vector>
 #include <map>
-
-#endif

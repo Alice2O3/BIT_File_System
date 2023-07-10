@@ -1,3 +1,5 @@
+#pragma once
+
 #include "Utils.h"
 
 template<typename ...Ts>

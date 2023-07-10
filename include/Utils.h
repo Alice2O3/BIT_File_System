@@ -1,5 +1,4 @@
-#ifndef UTILS_H
-#define UTILS_H
+#pragma once
 
 #include "data_macros.h"
 
@@ -11,5 +10,3 @@ public:
 	static std::vector<str_type> str_split(const str_type& str, const char_type& split_char);
 	static str_type str_left_padding(const str_type& str, const size_t& padding_len, const char_type& padding_char);
 };
-
-#endif

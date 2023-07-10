@@ -1,5 +1,4 @@
-#ifndef CMD_H
-#define CMD_H
+#pragma once
 
 #include "std_headers.h"
 #include "cmd_macros.h"
@@ -23,5 +22,3 @@ public:
 	// Member Functions
 	void run();
 };
-
-#endif

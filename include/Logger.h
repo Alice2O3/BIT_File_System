@@ -1,5 +1,4 @@
-#ifndef LOGGER_H
-#define LOGGER_H
+#pragma once
 
 #include "std_headers.h"
 
@@ -12,5 +11,3 @@ public:
 	template<typename... Ts> static void log_warning(const Ts& ...args);
 	template<typename... Ts> static void log_error(const Ts& ...args);
 };
-
-#endif
