@@ -35,15 +35,15 @@ constexpr data_size FILESYSTEM_DATA_SIZE = FB_STATUS_SIZE + (FCB_SIZE + BLOCK_SI
 
 // Structs
 struct FCB {
+	//8B
+	data_size file_size;
 	//2B
 	data_index start_index; //65535: IS_DIRECTORY
-	//4B
-	data_size file_size;
 	//2B
 	data_index sub_fcb_index; //0: NO_SUBDIRECTORY
 	//2B
 	data_index next_fcb_index; //0: NO_NEXT
-	//8B
+	//18B
 	data_type file_name[FCB_NAME_LENGTH];
 };
 
