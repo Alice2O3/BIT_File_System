@@ -26,9 +26,10 @@ constexpr data_size FILE_NUM = 1024;
 
 // Data sizes
 constexpr data_size INDEX_SIZE = sizeof(data_index);
+constexpr data_size DATA_SIZE = sizeof(data_size);
 constexpr data_size BLOCK_SIZE = BLOCK_LENGTH * sizeof(data_type);
 constexpr data_size FCB_SIZE = FCB_LENGTH * sizeof(data_type);
-constexpr data_size FCB_NAME_LENGTH = (FCB_SIZE - INDEX_SIZE * 4) / sizeof(data_type);
+constexpr data_size FCB_NAME_LENGTH = (FCB_SIZE - INDEX_SIZE * 3 - DATA_SIZE) / sizeof(data_type);
 constexpr data_size FB_STATUS_SIZE = 2 * INDEX_SIZE * FILE_NUM;
 constexpr data_size FILESYSTEM_DATA_SIZE = FB_STATUS_SIZE + (FCB_SIZE + BLOCK_SIZE) * FILE_NUM;
 
