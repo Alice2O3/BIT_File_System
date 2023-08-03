@@ -54,7 +54,7 @@ struct FB {
 
 struct FB_Status {
 	data_index directory_list[FILE_NUM]; //directory_list[0]: top
-	data_index fb_allocation[FILE_NUM]; //fb_block[0]: num
+	data_index fb_allocation[FILE_NUM]; //fb_allocation[0]: num
 };
 
 struct FileSystem_Data {
