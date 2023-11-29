@@ -85,3 +85,11 @@ cd run
 - 文件块个数：`1024`
 - 文件最大大小：`1024 B`
 - 最多支持文件数：`1023`（第0个文件块以及FCB用于保留）
+
+------------------------------------------------------------------------------------------------------------
+
+I would like to kindly request that my code uploaded to Github not be redistributed to any other platform or social media without my permission.
+
+Furthermore, I do not authorize the use of my code in any form of AI program.
+
+Thanks!
